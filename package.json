@@ -1,0 +1,13 @@
+{
+  "name": "base-token-monitor",
+  "version": "1.0.0",
+  "description": "監控 Base 鏈上的 token 發行",
+  "main": "monitor_wallet.js",
+  "scripts": {
+    "monitor": "node monitor_wallet.js",
+    "check": "node check_wallet_history.js"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0"
+  }
+}
